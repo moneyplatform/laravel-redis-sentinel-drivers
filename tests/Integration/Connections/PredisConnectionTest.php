@@ -1,11 +1,11 @@
 <?php
 
-namespace Monospice\LaravelRedisSentinel\Tests\Integration\Connections;
+namespace Moneyplatform\LaravelRedisSentinel\Tests\Integration\Connections;
 
 use Mockery;
-use Monospice\LaravelRedisSentinel\Connections\PredisConnection;
-use Monospice\LaravelRedisSentinel\Tests\Support\DummyException;
-use Monospice\LaravelRedisSentinel\Tests\Support\IntegrationTestCase;
+use Moneyplatform\LaravelRedisSentinel\Connections\PredisConnection;
+use Moneyplatform\LaravelRedisSentinel\Tests\Support\DummyException;
+use Moneyplatform\LaravelRedisSentinel\Tests\Support\IntegrationTestCase;
 use Predis\Client;
 use Predis\Connection\ConnectionException;
 use Predis\Connection\NodeConnectionInterface;

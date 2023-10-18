@@ -11,14 +11,14 @@
  * Currently, this script bootstraps a minimal application that only provides
  * services for testing Horizon compatibility.
  *
- * @see Monospice\LaravelRedisSentinel\Tests\Support\ArtisanProcess
+ * @see Moneyplatform\LaravelRedisSentinel\Tests\Support\ArtisanProcess
  */
 
 require_once __DIR__ . '/../../vendor/autoload.php';
 
 use Illuminate\Contracts\Console\Kernel;
-use Monospice\LaravelRedisSentinel\RedisSentinelServiceProvider;
-use Monospice\LaravelRedisSentinel\Tests\Support\ApplicationFactory;
+use Moneyplatform\LaravelRedisSentinel\RedisSentinelServiceProvider;
+use Moneyplatform\LaravelRedisSentinel\Tests\Support\ApplicationFactory;
 use Symfony\Component\Console\Input\ArgvInput;
 use Symfony\Component\Console\Output\ConsoleOutput;
 

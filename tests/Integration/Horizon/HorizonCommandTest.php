@@ -1,13 +1,13 @@
 <?php
 
-namespace Monospice\LaravelRedisSentinel\Tests\Integration\Horizon;
+namespace Moneyplatform\LaravelRedisSentinel\Tests\Integration\Horizon;
 
 use Illuminate\Contracts\Console\Kernel as Artisan;
-use Monospice\LaravelRedisSentinel\RedisSentinelServiceProvider;
-use Monospice\LaravelRedisSentinel\Tests\Support\ApplicationFactory;
-use Monospice\LaravelRedisSentinel\Tests\Support\ArtisanProcess;
-use Monospice\LaravelRedisSentinel\Tests\Support\Doubles\JobStub;
-use Monospice\LaravelRedisSentinel\Tests\Support\IntegrationTestCase;
+use Moneyplatform\LaravelRedisSentinel\RedisSentinelServiceProvider;
+use Moneyplatform\LaravelRedisSentinel\Tests\Support\ApplicationFactory;
+use Moneyplatform\LaravelRedisSentinel\Tests\Support\ArtisanProcess;
+use Moneyplatform\LaravelRedisSentinel\Tests\Support\Doubles\JobStub;
+use Moneyplatform\LaravelRedisSentinel\Tests\Support\IntegrationTestCase;
 use RuntimeException;
 
 class HorizonCommandTest extends IntegrationTestCase

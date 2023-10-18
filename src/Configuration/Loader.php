@@ -1,13 +1,13 @@
 <?php
 
-namespace Monospice\LaravelRedisSentinel\Configuration;
+namespace Moneyplatform\LaravelRedisSentinel\Configuration;
 
 use Illuminate\Foundation\Application as LaravelApplication;
 use Illuminate\Support\Arr;
 use Laravel\Horizon\Horizon;
 use Laravel\Lumen\Application as LumenApplication;
-use Monospice\LaravelRedisSentinel\Configuration\HostNormalizer;
-use Monospice\LaravelRedisSentinel\Manager;
+use Moneyplatform\LaravelRedisSentinel\Configuration\HostNormalizer;
+use Moneyplatform\LaravelRedisSentinel\Manager;
 use UnexpectedValueException;
 
 /**
@@ -57,10 +57,10 @@ use UnexpectedValueException;
  *     Redis Sentinel connections, not "redis-sentinel.database.redis-sentinel".
  *
  * @category Package
- * @package  Monospice\LaravelRedisSentinel
+ * @package  Moneyplatform\LaravelRedisSentinel
  * @author   Cy Rossignol <cy@rossignols.me>
  * @license  See LICENSE file
- * @link     https://github.com/monospice/laravel-redis-sentinel-drivers
+ * @link     https://github.com/moneyplatform/laravel-redis-sentinel-drivers
  */
 class Loader
 {

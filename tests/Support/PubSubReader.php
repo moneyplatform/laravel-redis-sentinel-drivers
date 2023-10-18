@@ -1,6 +1,6 @@
 <?php
 
-namespace Monospice\LaravelRedisSentinel\Tests\Support;
+namespace Moneyplatform\LaravelRedisSentinel\Tests\Support;
 
 use Closure;
 use Predis\ClientInterface;
@@ -9,10 +9,10 @@ use Predis\ClientInterface;
  * Subscribes to Redis PUB/SUB channels and captures any messages received.
  *
  * @category Package
- * @package  Monospice\LaravelRedisSentinel
+ * @package  Moneyplatform\LaravelRedisSentinel
  * @author   Cy Rossignol <cy@rossignols.me>
  * @license  See LICENSE file
- * @link     http://github.com/monospice/laravel-redis-sentinel-drivers
+ * @link     http://github.com/moneyplatform/laravel-redis-sentinel-drivers
  */
 class PubSubReader
 {

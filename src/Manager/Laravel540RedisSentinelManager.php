@@ -1,8 +1,8 @@
 <?php
 
-namespace Monospice\LaravelRedisSentinel\Manager;
+namespace Moneyplatform\LaravelRedisSentinel\Manager;
 
-use Monospice\LaravelRedisSentinel\Manager\VersionedRedisSentinelManager;
+use Moneyplatform\LaravelRedisSentinel\Manager\VersionedRedisSentinelManager;
 
 /**
  * Enables Laravel's Redis database driver to accept configuration options for
@@ -10,10 +10,10 @@ use Monospice\LaravelRedisSentinel\Manager\VersionedRedisSentinelManager;
  * 5.4.19.
  *
  * @category Package
- * @package  Monospice\LaravelRedisSentinel
+ * @package  Moneyplatform\LaravelRedisSentinel
  * @author   Cy Rossignol <cy@rossignols.me>
  * @license  See LICENSE file
- * @link     http://github.com/monospice/laravel-redis-sentinel-drivers
+ * @link     http://github.com/moneyplatform/laravel-redis-sentinel-drivers
  */
 class Laravel540RedisSentinelManager extends VersionedRedisSentinelManager
 {

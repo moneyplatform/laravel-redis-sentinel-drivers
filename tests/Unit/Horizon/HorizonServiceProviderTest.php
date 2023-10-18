@@ -1,16 +1,16 @@
 <?php
 
-namespace Monospice\LaravelRedisSentinel\Tests\Unit\Horizon;
+namespace Moneyplatform\LaravelRedisSentinel\Tests\Unit\Horizon;
 
 use Illuminate\Contracts\Redis\Factory as RedisFactory;
 use Laravel\Horizon\Contracts\JobRepository;
 use Laravel\Horizon\RedisQueue as HorizonRedisQueue;
-use Monospice\LaravelRedisSentinel\Configuration\Loader as ConfigurationLoader;
-use Monospice\LaravelRedisSentinel\Contracts\Factory as RedisSentinelFactory;
-use Monospice\LaravelRedisSentinel\Horizon\HorizonServiceProvider;
-use Monospice\LaravelRedisSentinel\RedisSentinelManager;
-use Monospice\LaravelRedisSentinel\RedisSentinelServiceProvider;
-use Monospice\LaravelRedisSentinel\Tests\Support\ApplicationFactory;
+use Moneyplatform\LaravelRedisSentinel\Configuration\Loader as ConfigurationLoader;
+use Moneyplatform\LaravelRedisSentinel\Contracts\Factory as RedisSentinelFactory;
+use Moneyplatform\LaravelRedisSentinel\Horizon\HorizonServiceProvider;
+use Moneyplatform\LaravelRedisSentinel\RedisSentinelManager;
+use Moneyplatform\LaravelRedisSentinel\RedisSentinelServiceProvider;
+use Moneyplatform\LaravelRedisSentinel\Tests\Support\ApplicationFactory;
 use PHPUnit_Framework_TestCase as TestCase;
 
 class HorizonServiceProviderTest extends TestCase

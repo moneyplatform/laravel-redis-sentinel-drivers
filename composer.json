@@ -1,5 +1,5 @@
 {
-    "name": "monospice/laravel-redis-sentinel-drivers",
+    "name": "moneyplatform/laravel-redis-sentinel-drivers",
     "description": "Redis Sentinel integration for Laravel and Lumen.",
     "keywords": ["redis", "sentinel", "laravel", "lumen"],
     "type": "library",
@@ -30,18 +30,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Monospice\\LaravelRedisSentinel\\": "src/"
+            "Moneyplatform\\LaravelRedisSentinel\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Monospice\\LaravelRedisSentinel\\Tests\\": "tests/"
+            "Moneyplatform\\LaravelRedisSentinel\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Monospice\\LaravelRedisSentinel\\RedisSentinelServiceProvider"
+                "Moneyplatform\\LaravelRedisSentinel\\RedisSentinelServiceProvider"
             ]
         }
     }

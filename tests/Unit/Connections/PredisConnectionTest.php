@@ -1,12 +1,12 @@
 <?php
 
-namespace Monospice\LaravelRedisSentinel\Tests\Connections\Unit;
+namespace Moneyplatform\LaravelRedisSentinel\Tests\Connections\Unit;
 
 use BadMethodCallException;
 use Illuminate\Redis\Connections\Connection;
 use Mockery;
-use Monospice\LaravelRedisSentinel\Connections\PredisConnection;
-use Monospice\SpicyIdentifiers\DynamicMethod;
+use Moneyplatform\LaravelRedisSentinel\Connections\PredisConnection;
+use Moneyplatform\SpicyIdentifiers\DynamicMethod;
 use PHPUnit_Framework_TestCase as TestCase;
 use Predis\ClientInterface;
 use Predis\Connection\Aggregate\ReplicationInterface;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Monospice\LaravelRedisSentinel\Tests\Support\Doubles;
+namespace Moneyplatform\LaravelRedisSentinel\Tests\Support\Doubles;
 
 use Illuminate\Contracts\Queue\ShouldQueue;
 
@@ -8,10 +8,10 @@ use Illuminate\Contracts\Queue\ShouldQueue;
  * A simple job that tests can push onto a queue.
  *
  * @category Package
- * @package  Monospice\LaravelRedisSentinel
+ * @package  Moneyplatform\LaravelRedisSentinel
  * @author   Cy Rossignol <cy@rossignols.me>
  * @license  See LICENSE file
- * @link     http://github.com/monospice/laravel-redis-sentinel-drivers
+ * @link     http://github.com/moneyplatform/laravel-redis-sentinel-drivers
  */
 class JobStub implements ShouldQueue
 {

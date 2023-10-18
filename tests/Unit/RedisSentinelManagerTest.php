@@ -1,12 +1,12 @@
 <?php
 
-namespace Monospice\LaravelRedisSentinel\Tests\Unit;
+namespace Moneyplatform\LaravelRedisSentinel\Tests\Unit;
 
 use Illuminate\Contracts\Redis\Factory as RedisFactory;
 use Illuminate\Redis\Connections\Connection;
-use Monospice\LaravelRedisSentinel\Contracts\Factory as RedisSentinelFactory;
-use Monospice\LaravelRedisSentinel\Manager\VersionedRedisSentinelManager;
-use Monospice\LaravelRedisSentinel\RedisSentinelManager;
+use Moneyplatform\LaravelRedisSentinel\Contracts\Factory as RedisSentinelFactory;
+use Moneyplatform\LaravelRedisSentinel\Manager\VersionedRedisSentinelManager;
+use Moneyplatform\LaravelRedisSentinel\RedisSentinelManager;
 use Mockery;
 use PHPUnit_Framework_TestCase as TestCase;
 

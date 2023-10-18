@@ -1,14 +1,14 @@
 <?php
 
-namespace Monospice\LaravelRedisSentinel\Tests\Unit\Manager;
+namespace Moneyplatform\LaravelRedisSentinel\Tests\Unit\Manager;
 
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Redis\Connections\Connection;
 use Mockery;
-use Monospice\LaravelRedisSentinel\Configuration\Loader as ConfigurationLoader;
-use Monospice\LaravelRedisSentinel\Manager\VersionedManagerFactory;
-use Monospice\LaravelRedisSentinel\Contracts\Factory as ManagerContract;
-use Monospice\LaravelRedisSentinel\Tests\Support\ApplicationFactory;
+use Moneyplatform\LaravelRedisSentinel\Configuration\Loader as ConfigurationLoader;
+use Moneyplatform\LaravelRedisSentinel\Manager\VersionedManagerFactory;
+use Moneyplatform\LaravelRedisSentinel\Contracts\Factory as ManagerContract;
+use Moneyplatform\LaravelRedisSentinel\Tests\Support\ApplicationFactory;
 use PHPUnit_Framework_TestCase as TestCase;
 
 class VersionedManagerFactoryTest extends TestCase

@@ -1,10 +1,10 @@
 <?php
 
-namespace Monospice\LaravelRedisSentinel;
+namespace Moneyplatform\LaravelRedisSentinel;
 
-use Monospice\LaravelRedisSentinel\Contracts\Factory;
-use Monospice\LaravelRedisSentinel\Manager\VersionedRedisSentinelManager;
-use Monospice\SpicyIdentifiers\DynamicMethod;
+use Moneyplatform\LaravelRedisSentinel\Contracts\Factory;
+use Moneyplatform\LaravelRedisSentinel\Manager\VersionedRedisSentinelManager;
+use Moneyplatform\SpicyIdentifiers\DynamicMethod;
 
 /**
  * Enables Laravel's Redis database driver to accept configuration options for
@@ -29,10 +29,10 @@ use Monospice\SpicyIdentifiers\DynamicMethod;
  * diverging Laravel version.
  *
  * @category Package
- * @package  Monospice\LaravelRedisSentinel
+ * @package  Moneyplatform\LaravelRedisSentinel
  * @author   Cy Rossignol <cy@rossignols.me>
  * @license  See LICENSE file
- * @link     http://github.com/monospice/laravel-redis-sentinel-drivers
+ * @link     http://github.com/moneyplatform/laravel-redis-sentinel-drivers
  */
 class RedisSentinelManager implements Factory
 {

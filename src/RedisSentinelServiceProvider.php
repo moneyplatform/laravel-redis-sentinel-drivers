@@ -1,6 +1,6 @@
 <?php
 
-namespace Monospice\LaravelRedisSentinel;
+namespace Moneyplatform\LaravelRedisSentinel;
 
 use Illuminate\Broadcasting\Broadcasters\RedisBroadcaster;
 use Illuminate\Cache\RedisStore;
@@ -9,20 +9,20 @@ use Illuminate\Queue\Connectors\RedisConnector;
 use Illuminate\Session\CacheBasedSessionHandler;
 use Illuminate\Support\Arr;
 use Illuminate\Support\ServiceProvider;
-use Monospice\LaravelRedisSentinel\Configuration\Loader as ConfigurationLoader;
-use Monospice\LaravelRedisSentinel\Contracts\Factory;
-use Monospice\LaravelRedisSentinel\Horizon\HorizonServiceProvider;
-use Monospice\LaravelRedisSentinel\Manager\VersionedManagerFactory;
+use Moneyplatform\LaravelRedisSentinel\Configuration\Loader as ConfigurationLoader;
+use Moneyplatform\LaravelRedisSentinel\Contracts\Factory;
+use Moneyplatform\LaravelRedisSentinel\Horizon\HorizonServiceProvider;
+use Moneyplatform\LaravelRedisSentinel\Manager\VersionedManagerFactory;
 
 /**
  * Registers the "redis-sentinel" driver as an available driver for Laravel's
  * cache, session, and queue services and loads the appropriate configuration.
  *
  * @category Package
- * @package  Monospice\LaravelRedisSentinel
+ * @package  Moneyplatform\LaravelRedisSentinel
  * @author   Cy Rossignol <cy@rossignols.me>
  * @license  See LICENSE file
- * @link     https://github.com/monospice/laravel-redis-sentinel-drivers
+ * @link     https://github.com/moneyplatform/laravel-redis-sentinel-drivers
  */
 class RedisSentinelServiceProvider extends ServiceProvider
 {

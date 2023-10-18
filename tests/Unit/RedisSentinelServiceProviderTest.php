@@ -1,6 +1,6 @@
 <?php
 
-namespace Monospice\LaravelRedisSentinel\Tests\Unit;
+namespace Moneyplatform\LaravelRedisSentinel\Tests\Unit;
 
 use Illuminate\Config\Repository as ConfigRepository;
 use Illuminate\Contracts\Broadcasting\Factory as BroadcastFactory;
@@ -8,11 +8,11 @@ use Illuminate\Contracts\Redis\Factory as RedisFactory;
 use Illuminate\Queue\RedisQueue as StandardRedisQueue;
 use Illuminate\Redis\RedisManager;
 use Laravel\Horizon\RedisQueue as HorizonRedisQueue;
-use Monospice\LaravelRedisSentinel\Contracts\Factory as RedisSentinelFactory;
-use Monospice\LaravelRedisSentinel\Manager\VersionedRedisSentinelManager;
-use Monospice\LaravelRedisSentinel\RedisSentinelManager;
-use Monospice\LaravelRedisSentinel\RedisSentinelServiceProvider;
-use Monospice\LaravelRedisSentinel\Tests\Support\ApplicationFactory;
+use Moneyplatform\LaravelRedisSentinel\Contracts\Factory as RedisSentinelFactory;
+use Moneyplatform\LaravelRedisSentinel\Manager\VersionedRedisSentinelManager;
+use Moneyplatform\LaravelRedisSentinel\RedisSentinelManager;
+use Moneyplatform\LaravelRedisSentinel\RedisSentinelServiceProvider;
+use Moneyplatform\LaravelRedisSentinel\Tests\Support\ApplicationFactory;
 use PHPUnit_Framework_TestCase as TestCase;
 
 class RedisSentinelServiceProviderTest extends TestCase

@@ -1,6 +1,6 @@
 <?php
 
-namespace Monospice\LaravelRedisSentinel\Configuration;
+namespace Moneyplatform\LaravelRedisSentinel\Configuration;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
@@ -43,10 +43,10 @@ use Illuminate\Support\Str;
  *     ]
  *
  * @category Package
- * @package  Monospice\LaravelRedisSentinel
+ * @package  Moneyplatform\LaravelRedisSentinel
  * @author   Cy Rossignol <cy@rossignols.me>
  * @license  See LICENSE file
- * @link     https://github.com/monospice/laravel-redis-sentinel-drivers
+ * @link     https://github.com/moneyplatform/laravel-redis-sentinel-drivers
  */
 class HostNormalizer
 {

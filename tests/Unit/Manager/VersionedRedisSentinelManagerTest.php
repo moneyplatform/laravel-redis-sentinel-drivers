@@ -1,6 +1,6 @@
 <?php
 
-namespace Monospice\LaravelRedisSentinel\Tests\Unit;
+namespace Moneyplatform\LaravelRedisSentinel\Tests\Unit;
 
 use Closure;
 use Illuminate\Contracts\Container\Container;
@@ -8,9 +8,9 @@ use Illuminate\Contracts\Redis\Factory as RedisFactory;
 use Illuminate\Redis\RedisManager;
 use InvalidArgumentException;
 use Mockery;
-use Monospice\LaravelRedisSentinel\Contracts\Factory as RedisSentinelFactory;
-use Monospice\LaravelRedisSentinel\Manager\VersionedRedisSentinelManager;
-use Monospice\LaravelRedisSentinel\Tests\Support\ApplicationFactory;
+use Moneyplatform\LaravelRedisSentinel\Contracts\Factory as RedisSentinelFactory;
+use Moneyplatform\LaravelRedisSentinel\Manager\VersionedRedisSentinelManager;
+use Moneyplatform\LaravelRedisSentinel\Tests\Support\ApplicationFactory;
 use PHPUnit_Framework_TestCase as TestCase;
 use Predis\Connection\Aggregate\SentinelReplication;
 

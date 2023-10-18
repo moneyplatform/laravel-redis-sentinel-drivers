@@ -1,10 +1,10 @@
 <?php
 
-namespace Monospice\LaravelRedisSentinel\Connections;
+namespace Moneyplatform\LaravelRedisSentinel\Connections;
 
 use Closure;
 use Illuminate\Redis\Connections\PredisConnection as LaravelPredisConnection;
-use Monospice\SpicyIdentifiers\DynamicMethod;
+use Moneyplatform\SpicyIdentifiers\DynamicMethod;
 use Predis\ClientInterface as Client;
 use Predis\CommunicationException;
 use Predis\PubSub\Consumer as PubSub;
@@ -18,10 +18,10 @@ use RuntimeException;
  * connections (in this case, Sentinel connections).
  *
  * @category Package
- * @package  Monospice\LaravelRedisSentinel
+ * @package  Moneyplatform\LaravelRedisSentinel
  * @author   @pdbreen, Cy Rossignol <cy@rossignols.me>
  * @license  See LICENSE file
- * @link     https://github.com/monospice/laravel-redis-sentinel-drivers
+ * @link     https://github.com/moneyplatform/laravel-redis-sentinel-drivers
  */
 class PredisConnection extends LaravelPredisConnection
 {

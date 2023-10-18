@@ -1,19 +1,19 @@
 <?php
 
-namespace Monospice\LaravelRedisSentinel\Connectors;
+namespace Moneyplatform\LaravelRedisSentinel\Connectors;
 
 use Illuminate\Support\Arr;
-use Monospice\LaravelRedisSentinel\Connections\PredisConnection;
+use Moneyplatform\LaravelRedisSentinel\Connections\PredisConnection;
 use Predis\Client;
 
 /**
  * Initializes Predis Client instances for Redis Sentinel connections
  *
  * @category Package
- * @package  Monospice\LaravelRedisSentinel
+ * @package  Moneyplatform\LaravelRedisSentinel
  * @author   Cy Rossignol <cy@rossignols.me>
  * @license  See LICENSE file
- * @link     http://github.com/monospice/laravel-redis-sentinel-drivers
+ * @link     http://github.com/moneyplatform/laravel-redis-sentinel-drivers
  */
 class PredisConnector
 {

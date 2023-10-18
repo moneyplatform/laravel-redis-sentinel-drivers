@@ -1,8 +1,8 @@
 <?php
 
-namespace Monospice\LaravelRedisSentinel\Tests\Support;
+namespace Moneyplatform\LaravelRedisSentinel\Tests\Support;
 
-use Monospice\LaravelRedisSentinel\Tests\Support\ApplicationFactory;
+use Moneyplatform\LaravelRedisSentinel\Tests\Support\ApplicationFactory;
 use Symfony\Component\Process\PhpExecutableFinder;
 use Symfony\Component\Process\Process;
 
@@ -10,10 +10,10 @@ use Symfony\Component\Process\Process;
  * Runs the specified Artisan console command in a separate process.
  *
  * @category Package
- * @package  Monospice\LaravelRedisSentinel
+ * @package  Moneyplatform\LaravelRedisSentinel
  * @author   Cy Rossignol <cy@rossignols.me>
  * @license  See LICENSE file
- * @link     https://github.com/monospice/laravel-redis-sentinel-drivers
+ * @link     https://github.com/moneyplatform/laravel-redis-sentinel-drivers
  */
 class ArtisanProcess extends Process
 {

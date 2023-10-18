@@ -1,10 +1,10 @@
 <?php
 
-namespace Monospice\LaravelRedisSentinel\Tests\Integration;
+namespace Moneyplatform\LaravelRedisSentinel\Tests\Integration;
 
-use Monospice\LaravelRedisSentinel\RedisSentinelManager;
-use Monospice\LaravelRedisSentinel\Tests\Support\ApplicationFactory;
-use Monospice\LaravelRedisSentinel\Tests\Support\IntegrationTestCase;
+use Moneyplatform\LaravelRedisSentinel\RedisSentinelManager;
+use Moneyplatform\LaravelRedisSentinel\Tests\Support\ApplicationFactory;
+use Moneyplatform\LaravelRedisSentinel\Tests\Support\IntegrationTestCase;
 
 class RedisSentinelManagerTest extends IntegrationTestCase
 {

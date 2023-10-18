@@ -1,11 +1,11 @@
 <?php
 
-namespace Monospice\LaravelRedisSentinel\Tests\Unit;
+namespace Moneyplatform\LaravelRedisSentinel\Tests\Unit;
 
 use Mockery;
-use Monospice\LaravelRedisSentinel\RedisSentinel;
-use Monospice\LaravelRedisSentinel\RedisSentinelManager;
-use Monospice\LaravelRedisSentinel\Tests\Support\ApplicationFactory;
+use Moneyplatform\LaravelRedisSentinel\RedisSentinel;
+use Moneyplatform\LaravelRedisSentinel\RedisSentinelManager;
+use Moneyplatform\LaravelRedisSentinel\Tests\Support\ApplicationFactory;
 use PHPUnit_Framework_TestCase as TestCase;
 
 class RedisSentinelFacadeTest extends TestCase

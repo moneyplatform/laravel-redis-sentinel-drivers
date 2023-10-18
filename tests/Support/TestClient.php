@@ -1,9 +1,9 @@
 <?php
 
-namespace Monospice\LaravelRedisSentinel\Tests\Support;
+namespace Moneyplatform\LaravelRedisSentinel\Tests\Support;
 
 use Closure;
-use Monospice\SpicyIdentifiers\DynamicMethod;
+use Moneyplatform\SpicyIdentifiers\DynamicMethod;
 use Predis\Client;
 use Symfony\Component\Process\PhpProcess;
 
@@ -12,10 +12,10 @@ use Symfony\Component\Process\PhpProcess;
  * classes under test for behavior verification and test clean-up.
  *
  * @category Package
- * @package  Monospice\LaravelRedisSentinel
+ * @package  Moneyplatform\LaravelRedisSentinel
  * @author   Cy Rossignol <cy@rossignols.me>
  * @license  See LICENSE file
- * @link     https://github.com/monospice/laravel-redis-sentinel-drivers
+ * @link     https://github.com/moneyplatform/laravel-redis-sentinel-drivers
  */
 class TestClient
 {

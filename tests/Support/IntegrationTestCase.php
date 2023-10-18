@@ -1,10 +1,10 @@
 <?php
 
-namespace Monospice\LaravelRedisSentinel\Tests\Support;
+namespace Moneyplatform\LaravelRedisSentinel\Tests\Support;
 
 use Exception;
-use Monospice\LaravelRedisSentinel\Tests\Support\PubSubReader;
-use Monospice\LaravelRedisSentinel\Tests\Support\TestClient;
+use Moneyplatform\LaravelRedisSentinel\Tests\Support\PubSubReader;
+use Moneyplatform\LaravelRedisSentinel\Tests\Support\TestClient;
 use PHPUnit_Framework_TestCase as TestCase;
 use Predis\Client;
 use Predis\Response\Status as ResponseStatus;
@@ -14,10 +14,10 @@ use Predis\Response\Status as ResponseStatus;
  * Sentinel servers.
  *
  * @category Package
- * @package  Monospice\LaravelRedisSentinel
+ * @package  Moneyplatform\LaravelRedisSentinel
  * @author   Cy Rossignol <cy@rossignols.me>
  * @license  See LICENSE file
- * @link     https://github.com/monospice/laravel-redis-sentinel-drivers
+ * @link     https://github.com/moneyplatform/laravel-redis-sentinel-drivers
  */
 abstract class IntegrationTestCase extends TestCase
 {

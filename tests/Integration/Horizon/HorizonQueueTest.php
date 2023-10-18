@@ -1,12 +1,12 @@
 <?php
 
-namespace Monospice\LaravelRedisSentinel\Tests\Integration\Horizon;
+namespace Moneyplatform\LaravelRedisSentinel\Tests\Integration\Horizon;
 
 use Illuminate\Queue\Jobs\RedisJob;
 use Laravel\Horizon\RedisQueue as HorizonRedisQueue;
-use Monospice\LaravelRedisSentinel\RedisSentinelServiceProvider;
-use Monospice\LaravelRedisSentinel\Tests\Support\ApplicationFactory;
-use Monospice\LaravelRedisSentinel\Tests\Support\IntegrationTestCase;
+use Moneyplatform\LaravelRedisSentinel\RedisSentinelServiceProvider;
+use Moneyplatform\LaravelRedisSentinel\Tests\Support\ApplicationFactory;
+use Moneyplatform\LaravelRedisSentinel\Tests\Support\IntegrationTestCase;
 
 class HorizonQueueTest extends IntegrationTestCase
 {

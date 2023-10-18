@@ -1,11 +1,11 @@
 <?php
 
-namespace Monospice\LaravelRedisSentinel\Tests\Integration\Drivers;
+namespace Moneyplatform\LaravelRedisSentinel\Tests\Integration\Drivers;
 
 use Illuminate\Cache\RedisStore;
-use Monospice\LaravelRedisSentinel\RedisSentinelServiceProvider;
-use Monospice\LaravelRedisSentinel\Tests\Support\ApplicationFactory;
-use Monospice\LaravelRedisSentinel\Tests\Support\IntegrationTestCase;
+use Moneyplatform\LaravelRedisSentinel\RedisSentinelServiceProvider;
+use Moneyplatform\LaravelRedisSentinel\Tests\Support\ApplicationFactory;
+use Moneyplatform\LaravelRedisSentinel\Tests\Support\IntegrationTestCase;
 
 class CacheTest extends IntegrationTestCase
 {

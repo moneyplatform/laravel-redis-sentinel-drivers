@@ -1,15 +1,15 @@
 <?php
 
-namespace Monospice\LaravelRedisSentinel\Horizon;
+namespace Moneyplatform\LaravelRedisSentinel\Horizon;
 
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Contracts\Redis\Factory as RedisFactory;
 use Illuminate\Support\ServiceProvider;
 use Laravel\Horizon\Connectors\RedisConnector as HorizonRedisConnector;
-use Monospice\LaravelRedisSentinel\Configuration\Loader as ConfigurationLoader;
-use Monospice\LaravelRedisSentinel\Horizon\HorizonServiceBindings;
-use Monospice\LaravelRedisSentinel\Manager\VersionedManagerFactory;
-use Monospice\LaravelRedisSentinel\RedisSentinelServiceProvider;
+use Moneyplatform\LaravelRedisSentinel\Configuration\Loader as ConfigurationLoader;
+use Moneyplatform\LaravelRedisSentinel\Horizon\HorizonServiceBindings;
+use Moneyplatform\LaravelRedisSentinel\Manager\VersionedManagerFactory;
+use Moneyplatform\LaravelRedisSentinel\RedisSentinelServiceProvider;
 
 /**
  * Configures the application to use Redis Sentinel connections for Laravel
@@ -20,10 +20,10 @@ use Monospice\LaravelRedisSentinel\RedisSentinelServiceProvider;
  * service provider.
  *
  * @category Package
- * @package  Monospice\LaravelRedisSentinel
+ * @package  Moneyplatform\LaravelRedisSentinel
  * @author   Cy Rossignol <cy@rossignols.me>
  * @license  See LICENSE file
- * @link     https://github.com/monospice/laravel-redis-sentinel-drivers
+ * @link     https://github.com/moneyplatform/laravel-redis-sentinel-drivers
  */
 class HorizonServiceProvider extends ServiceProvider
 {

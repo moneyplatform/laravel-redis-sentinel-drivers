@@ -1,6 +1,6 @@
 <?php
 
-namespace Monospice\LaravelRedisSentinel\Tests\Support;
+namespace Moneyplatform\LaravelRedisSentinel\Tests\Support;
 
 use Illuminate\Broadcasting\BroadcastServiceProvider;
 use Illuminate\Bus\BusServiceProvider;
@@ -17,17 +17,17 @@ use Illuminate\Session\SessionServiceProvider;
 use Illuminate\Support\Facades\Facade;
 use Illuminate\View\ViewServiceProvider;
 use Laravel\Horizon\HorizonServiceProvider;
-use Monospice\LaravelRedisSentinel\Manager;
+use Moneyplatform\LaravelRedisSentinel\Manager;
 
 /**
  * Bootstraps Laravel and Lumen application instances based for the version of
  * the framework installed for testing.
  *
  * @category Package
- * @package  Monospice\LaravelRedisSentinel
+ * @package  Moneyplatform\LaravelRedisSentinel
  * @author   Cy Rossignol <cy@rossignols.me>
  * @license  See LICENSE file
- * @link     http://github.com/monospice/laravel-redis-sentinel-drivers
+ * @link     http://github.com/moneyplatform/laravel-redis-sentinel-drivers
  */
 class ApplicationFactory
 {
