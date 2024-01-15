@@ -4,7 +4,7 @@ namespace Moneyplatform\LaravelRedisSentinel;
 
 use Moneyplatform\LaravelRedisSentinel\Contracts\Factory;
 use Moneyplatform\LaravelRedisSentinel\Manager\VersionedRedisSentinelManager;
-use Moneyplatform\SpicyIdentifiers\DynamicMethod;
+use Monospice\SpicyIdentifiers\DynamicMethod;
 
 /**
  * Enables Laravel's Redis database driver to accept configuration options for

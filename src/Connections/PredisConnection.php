@@ -4,7 +4,7 @@ namespace Moneyplatform\LaravelRedisSentinel\Connections;
 
 use Closure;
 use Illuminate\Redis\Connections\PredisConnection as LaravelPredisConnection;
-use Moneyplatform\SpicyIdentifiers\DynamicMethod;
+use Monospice\SpicyIdentifiers\DynamicMethod;
 use Predis\ClientInterface as Client;
 use Predis\CommunicationException;
 use Predis\PubSub\Consumer as PubSub;
